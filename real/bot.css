@@ -1,0 +1,74 @@
+.navbar img{
+    height: 50px;
+    width: 50px;
+   
+}
+
+body{
+    height: 2000px;
+}
+
+
+p{
+    
+    background-position: center;
+    background-size: cover;
+
+}
+    .real{
+     
+        opacity: 0.4;
+        filter: alpha(opacity=40); /* For IE8 and earlier */
+    min-height:calc(100vh - 80px) ;
+    min-width:calc(100vh - 80px)
+
+}
+.home{
+    position: relative;
+
+}
+.home img{vertical-align: middle;}
+.home .content{
+    position: absolute;
+    bottom: 30%;
+  color: black;
+  font-size: large;
+  
+}
+.img1{
+    height: 300px;
+    width: 250pxs;
+}
+.players{
+    display: grid;
+    
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(3,200px);
+    grid-gap: 10px;
+    
+}
+.p1{ padding-top: 5px;
+    text-align: center;
+    color:white;
+    border-radius: 20%;
+    background-color:black;
+    
+    
+}
+.navbar{
+    background-color: #bce3fc;
+
+}
+.navbar-toggler{
+    background-color: blue;
+}
+
+.navbar .navbar-nav .navbar-link:focus,
+.navbar .navbar-nav .navbar-link:hover{
+    color: blue;
+}
+
+
+
+
+
